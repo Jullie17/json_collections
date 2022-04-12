@@ -1,0 +1,101 @@
+
+@font-face {
+    font-family: 'pumpoptimedium';
+    src: url('pumpopti-medium-webfont.woff2') format('woff2'),
+         url('pumpopti-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pumpoptidemibold';
+    src: url('pumpopti-demibold-webfont.woff2') format('woff2'),
+         url('pumpopti-demibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 3% 3% 3% 3%;
+  background-image: url(minion_bg_2.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 200px;
+  color: gold;
+  -webkit-text-stroke: 3px black;
+  text-shadow: 8px 2px grey;
+  margin: auto;
+  padding: auto;
+}
+h2{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+  color: black;
+  -webkit-text-stroke: 1px gold;
+}
+h3{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  background-color: gold;
+  border-radius: 100px;
+  font-size: 40px;
+  color: black;
+}
+p {
+  font-family:'Ubuntu', sans-serif;
+  text-align: left;
+  display: inline-block;
+  font-size: 120%;
+  width: 70%;
+}
+.smaller{
+  font-size: 30px;
+}
+
+/*background-image: url(4504433.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  overflow: hidden;*/
+
+#minionCharts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3%;
+  row-gap:5vw;
+}
+
+
+.items {
+  text-align: center;
+  border: 5px dotted;
+  border-radius: 50px;
+  background: white;
+  border-color: navy;
+}
+
+.pContain{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: gold;
+}
+
+
+.minionsImage {
+  width: 100%;
+}
